@@ -1,0 +1,39 @@
+# --
+# Notify.dtl - provides HTML Notify for AgentNotify.pm
+# Copyright (C) 2001-2008 OTRS AG, http://otrs.org/
+# --
+# $Id: Notify.dtl,v 1.10 2008/04/29 11:48:26 tr Exp $
+# --
+# This software comes with ABSOLUTELY NO WARRANTY. For details, see
+# the enclosed file COPYING for license information (GPL). If you
+# did not receive this file, see http://www.gnu.org/licenses/gpl-2.0.txt.
+# --
+
+<!-- start Notify -->
+<table border="0" width="100%" cellspacing="0" cellpadding="3">
+  <tr align="left">
+    <td width="25" align="right" class="contentbody">
+<!-- dtl:block:Warning -->
+      <img border="0" src="/otrs-web/images/FamFamFam/warning.png" alt="$Text{"Info"}">
+<!-- dtl:block:Warning -->
+<!-- dtl:block:Error -->
+      <img border="0" src="/otrs-web/images/FamFamFam/error.png" alt="$Text{"Important"}">
+<!-- dtl:block:Error -->
+    </td>
+    <td class="contentbody">:
+<!-- dtl:block:LinkStart -->
+      <a href="$Data{"LinkStart"}">
+<!-- dtl:block:LinkStart -->
+<!-- dtl:block:Text -->
+      $Text{"$Data{"Info"}"}
+<!-- dtl:block:Text -->
+<!-- dtl:block:Data -->
+      $Data{"Data"}
+<!-- dtl:block:Data -->
+<!-- dtl:block:LinkStop -->
+      </a>
+<!-- dtl:block:LinkStop -->
+    </td>
+  </tr>
+</table>
+<!-- end Notify -->
