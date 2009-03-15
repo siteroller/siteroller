@@ -12,8 +12,10 @@ The theme is released on GPL_ Version 3 (See COPYING for more infos),
 Concerning Copyright of the Image Set, please have a look at the `FamFamFam About`_
 Page.
 
-Simon Josi <josi+famfamfam(at)puzzle.ch>
-Marcel Haerry <haerry+famfamfam(at)puzzle.ch>
+Authors:
+
+* Simon Josi <josi+famfamfam(at)puzzle.ch>
+* Marcel Haerry <haerry+famfamfam(at)puzzle.ch>
 
 **Installation**
 
