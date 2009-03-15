@@ -16,7 +16,7 @@
       <table border="0" width="100%">
         <tr>
           <td align="left" class="footer">
-            $Text{"Powered by"} <a href="http://otrs.org/">$Config{"Product"} $Config{"Version"}</a>
+            $Text{"Powered by"} <a href="http://otrs.org/">$Config{"Product"} $Config{"Version"}</a> | Icons by <a href="http://www.famfamfam.com">FamFamFam</a>
           </td>
           <td align="right" class="footer">
             <a href="#top" onmouseover="window.status='$JSText{"Top of Page"}'; return true;" onmouseout="window.status='';" class="footeritem">

@@ -9,8 +9,8 @@ It introduces some Javascript enhancements to make the overview of
 tickets collapsed.
 
 The theme is released on GPL_ Version 3 (See COPYING for more infos),
-Concerning Copyright of the Image Set, please have a look at the `FamFamFam About`_
-Page.
+FamFamFam icons are licensed under a `Creative Commons Attribution 2.5 License`_
+for further information have a look at `FamFamFam About`-Page.
 
 Authors:
 
@@ -66,3 +66,4 @@ them have a look at the `OTRS Help`_.
 .. _GPL: http://www.gnu.org/copyleft/gpl.html
 .. _Puzzle ITC: http://www.puzzle.ch
 .. _OTRS Help: http://doc.otrs.org/2.3/en/html/c1850.html
+.. _Creative Commons Attribution 2.5 License: http://creativecommons.org/licenses/by/2.5/
