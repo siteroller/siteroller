@@ -27,6 +27,7 @@ This theme contains the following 4 folders:
 You have to copy them to the following locations:
 
 html: ::
+
   cp -a html <your otrs installation>/Kernel/Output/HTML/FamFamFam
 
 css: ::
