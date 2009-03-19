@@ -37,7 +37,7 @@ $Include{"Copyright"}
 $Include{"css"}
 </head>
 <a name="top"></a>
-<body>
+<body onload="bodyOnload();">
 <table border="0" width="100%" cellspacing="0" cellpadding="3">
   <tr>
     <td align="left" width="20%" class="header">

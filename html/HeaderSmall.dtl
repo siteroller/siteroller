@@ -39,5 +39,5 @@ $Include{"Copyright"}
 $Include{"css"}
 </head>
 <a name="top"></a>
-<body>
+<body onload="bodyOnload();">
 <!-- end header -->
