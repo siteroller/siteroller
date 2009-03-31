@@ -61,8 +61,25 @@
        <font color="red">$Text{"$Data{"Message"}"}</font>
        </a>
     </td>
-    <td align="right" width="34%" class="mainhead">
-       $Env{"Box0"}$Text{"Age"}: $Data{"Age"}$Env{"Box1"}
+    <td align="right" class="mainhead">
+     $Env{"Box0"}$Data{"Age"} old$Env{"Box1"}
+    </td>
+    <td align="right" width="100px" class="mainhead listhead">
+     <a href="$Env{"Baselink"}Action=AgentTicketZoom&amp;TicketID=$Data{"TicketID"}">
+       <img src="/otrs-web/images/FamFamFam/zoom.png" alt="Zoom" title="Zoom" />
+     </a>
+     <a href="$Env{"Baselink"}Action=AgentTicketNote&amp;TicketID=$Data{"TicketID"}">
+       <img src="/otrs-web/images/FamFamFam/note.png" alt="Note" title="Note" /> 
+     </a>
+     <a href="$Env{"Baselink"}Action=AgentTicketLock&amp;TicketID=$Data{"TicketID"}">
+       <img src="/otrs-web/images/FamFamFam/lock.png" alt="Lock" title="Lock" />
+     </a>
+     <a href="$Env{"Baselink"}Action=AgentTicketHistory&amp;TicketID=$Data{"TicketID"}">
+       <img src="/otrs-web/images/FamFamFam/history.png" alt="History" title="History" />
+     </a>
+     <a href="$Env{"Baselink"}Action=AgentTicketClose&amp;TicketID=$Data{"TicketID"}">
+       <img src="/otrs-web/images/FamFamFam/close.png" alt="Close" title="Close" />
+     </a>
     </td>
   </tr>
 </table>
