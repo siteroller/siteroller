@@ -43,7 +43,7 @@
 </table>
 <!-- dtl:block:NavBar -->
 <!-- dtl:block:Ticket -->
-<table border="0" width="100%" cellspacing="0" cellpadding="3">
+<table border="0" width="100%" cellspacing="0" cellpadding="3" class="ticket">
   <tr>
 <!-- dtl:block:Bulk -->
     <td width="1%" class="mainhead">
@@ -53,17 +53,20 @@
     </td>
 <!-- dtl:block:Bulk -->
     <td align="left" width="65%" class="mainhead">
-      $Env{"Box0"}$Config{"Ticket::Hook"}: $Data{"TicketNumber"}$Env{"Box1"}
+      <a href="javascript:toggle_ticket($Data{"TicketNumber"});">
+      <span style="color: #404040;">$Env{"Box0"}$Config{"Ticket::Hook"}$Data{"TicketNumber"}$Env{"Box1"}</span>
 <!-- dtl:block:Title-->
-      $QData{"Title","60"}
+      $QData{"Title","100"}
 <!-- dtl:block:Title-->
-      <font color="red">$Text{"$Data{"Message"}"}</font>
+       <font color="red">$Text{"$Data{"Message"}"}</font>
+       </a>
     </td>
     <td align="right" width="34%" class="mainhead">
-      $Env{"Box0"}$Text{"Age"}: $Data{"Age"}$Env{"Box1"}
+       $Env{"Box0"}$Text{"Age"}: $Data{"Age"}$Env{"Box1"}
     </td>
   </tr>
 </table>
+<div id="$Data{"TicketNumber"}" style="display: none;">
 <table border="0" width="100%" cellspacing="0" cellpadding="3">
   <tr>
     <td width="65%" class="menu">
@@ -209,4 +212,5 @@
     </td>
   </tr>
 </table>
+</div>
 <!-- dtl:block:Ticket -->
