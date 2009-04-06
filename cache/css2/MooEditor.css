@@ -1,0 +1,9 @@
+div#srEditor { position:fixed; bottom:0; left:0; background-color:#eee; width:100% }
+div#srEditor>div{ width:100%; height:25px; }
+div#srEditor span{ display:inline-block; xwidth:75px; width:16px; height:16px; margin:2px; cursor:pointer;}
+div#srEditor>div>div#srMenu{ border-bottom:1px #bbb solid; height:20px;  vertical-align:bottom; background-image:url('/images/bg-panel-header.gif'); text-align:left;}
+div#srEditor>div>div#srMenu>span{ display:inline }
+div#srEditor>div#srMain{ border-bottom:1px #bbb solid; }
+div#srEditor>div#srMain>div, div#srEditor>div#srFlyout>div, .srHide{ display:none; }
+div#srEditor>div#srMain>div#srText{ display:block }
+

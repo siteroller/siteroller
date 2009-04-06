@@ -1,0 +1,12 @@
+div#srEditor { position:fixed; bottom:0; left:0; background-color:#D8D8E0; width:100%; color:#222; font: 10px Arial; }
+div#srEditor>div{ width:100%; height:25px; position:relative }
+div#srEditor span{ display:inline-block; width:16px; height:16px; margin:2px; cursor:pointer;}
+div#srEditor>div#srR0{ border-bottom:1px #bbb solid; height:20px; overflow:hidden; vertical-align:bottom; background-image:url('/siteroller/classes/mootextarea/images/background_silver.jpg'); text-align:left;}
+div#srEditor>div#srR0>div#srMain_0>span{display:inline; font:bold 11px/20px Tahoma}
+div#srEditor>div#srR1{ border-bottom:1px #bbb solid; }
+.srHide{ display:none; }
+div#srEditor>div#srMain_0>div#srText{ display:block }
+div#srEditor input{width:100px}
+div#srEditor>div>div{position:absolute; width:100%}
+div#srEditor>div#srR2>div#srAddLink_2 span,div#srEditor>div#srR2>div#srAddLink_2 input{display:inline}
+.saveBtn{ background-image:url('/siteroller/classes/mootextarea/images/Save.png'); position:absolute; top:1px; right:15px; width:75px;}
