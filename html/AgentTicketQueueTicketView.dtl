@@ -37,8 +37,8 @@
      <a href="$Env{"Baselink"}Action=AgentTicketNote&amp;TicketID=$Data{"TicketID"}">
        <img src="/otrs-web/images/FamFamFam/note.png" alt="Note" title="Note" /> 
      </a>
-     <a href="$Env{"Baselink"}Action=AgentTicketLock&amp;TicketID=$Data{"TicketID"}">
-       <img src="/otrs-web/images/FamFamFam/lock.png" alt="Lock" title="Lock" />
+     <a href="$Env{"Baselink"}Action=AgentTicketMerge&amp;TicketID=$Data{"TicketID"}">
+       <img src="/otrs-web/images/FamFamFam/link_go.png" alt="Merge" title="Merge" />
      </a>
      <a href="$Env{"Baselink"}Action=AgentTicketHistory&amp;TicketID=$Data{"TicketID"}">
        <img src="/otrs-web/images/FamFamFam/history.png" alt="History" title="History" />
