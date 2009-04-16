@@ -1,0 +1,393 @@
+/*body*/
+body {
+  font-size:               12px;
+  background-color:        #444;
+  font-family:             Verdana,Tahoma,Arial,sans-serif;
+  color:                   black;
+}
+a {
+  color:                   #557799;
+  text-decoration:         none;
+}
+a:hover {
+  color:                   #002244;
+  text-decoration:         none;
+}
+pre {
+  font-size:               12px;
+  font-family:             Courier,monospace,fixed;
+}
+textarea {
+  font-size:               12px;
+  font-family:             monospace,fixed;
+}
+td,th {
+  font-size:               12px;
+}
+img {
+  border:                  none;
+}
+
+/*header*/
+.header {
+  font-size:               12px;
+  background-color:        #2C4056;
+  vertical-align:          top;
+  color:                   #ffffff;
+}
+a.headeritem {
+  text-decoration:         none;
+  color:                   #ffffff;
+}
+a.headeritem:hover {
+  text-decoration:         underline;
+  color:                   #dedede;
+}
+
+/*navbar*/
+.nav {
+  font-size:               10px;
+  background-color:        #ffffff;
+  vertical-align:          top;
+  color:                   #000000;
+}
+
+/*navbaritem*/
+a.navitem {
+  font-size:               11px;
+  color:                   #557799;
+}
+a.navitem:hover {
+  font-size:               11px;
+  color:                   #002244;
+}
+
+/*navbaritemarea*/
+a.navitemarea {
+  font-size:               11px;
+  color:                   #898989;
+}
+a.navitemarea:hover {
+  font-size:               11px;
+  color:                   #002244;
+}
+
+/*navbaritemareaactive*/
+a.navitemareaactive {
+  font-size:               11px;
+  color:                   #cd9931;
+}
+a.navitemareaactive:hover {
+  font-size:               11px;
+  color:                   #002244;
+}
+
+/*menubar*/
+.menu {
+  font-size:               12px;
+  background-color:        #FFFFDD;
+  vertical-align:          top;
+  color:                   #000000;
+}
+a.menuitem {
+  font-size:               12px;
+  color:                   #557799;
+}
+a.menuitem:hover {
+  font-size:               12px;
+  color:                   #002244;
+}
+
+/*ticket*/
+table.ticket {
+  margin-top:              5px;
+}
+
+/*notify*/
+#notify {
+  margin-bottom:           5px;
+}
+
+/*footer*/
+#footer {
+  margin-top:              5px;
+}
+.footer {
+  font-size:               10px;
+  background-color:        #2C4056;
+  color:                   #ffffff;
+}
+a.footeritem {
+  text-decoration:         none;
+  color:                   #ffffff;
+}
+a.footeritem:hover {
+  text-decoration:         underline;
+  color:                   #dddddd;
+}
+
+/*small*/
+.small {
+  font-size:               10px;
+  vertical-align:          top;
+}
+a.small {
+  vertical-align:          top;
+}
+a.small:hover {
+  font-weight:             normal;
+  text-decoration:         underline;
+  vertical-align:          top;
+  color:                   #222222;
+}
+
+/*form*/
+form {
+  margin:                  0px;
+}
+input {
+  font-size:               12px;
+}
+.button {
+  font-weight:             normal;
+  font-size:               12px;
+  background-color:        #dddddd;
+  border-right:            thin solid #222244;
+  border-bottom:           thin solid #222244;
+  color:                   black;
+  border-left:             thin solid #bbbbbb;
+  border-top:              thin solid #bbbbbb;
+}
+.required {
+  font-size:               11px;
+  vertical-align:          top;
+  color:                   red;
+}
+.validity {
+  font-weight:             bold;
+  font-size:               11px;
+  vertical-align:          top;
+  color:                   red;
+}
+.readonly {
+  font-size:               11px;
+  vertical-align:          top;
+  color:                   blue;
+}
+.footnote {
+  font-size:               11px;
+  vertical-align:          top;
+  color:                   #000000;
+}
+
+/*main*/
+#head {
+  margin-top:              10px;
+}
+.mainhead {
+  font-weight:             bold;
+  font-size:               13px;
+  background-color:        #507AAA;
+  vertical-align:          middle;
+  color:                   #F8F8F8;
+}
+.listhead {
+  line-height:             0px;
+}
+.mainhead2 {
+  font-weight:             bold;
+  font-size:               12px;
+  background-color:        #507AAA;
+  vertical-align:          top;
+  color:                   #F8F8F8;
+}
+.mainhead a {
+  color:                   #F8F8F8;
+}
+.mainbody {
+  font-size:               12px;
+  background-color:        #ffffff;
+  vertical-align:          top;
+  color:                   #000;
+}
+.mainbody font blink {
+  text-decoration:         none;
+}
+.mainkey {
+  font-weight:             bold;
+  font-size:               12px;
+  vertical-align:          top;
+  color:                   #000;
+}
+.mainvalue {
+  font-size:               12px;
+  vertical-align:          top;
+  color:                   #000;
+}
+
+/*content*/
+.contenthead {
+  font-weight:             bold;
+  font-size:               12px;
+  background-color:        #dedede;
+  vertical-align:          top;
+  color:                   #000000;
+}
+.contentheadpassiv {
+  font-weight:             bold;
+  font-size:               12px;
+  background-color:        #dedede;
+  vertical-align:          top;
+  color:                   #BBBBBB;
+}
+.contentbody {
+  font-size:               12px;
+  background-color:        #FFFFDD;
+  vertical-align:          top;
+}
+.contentfooter {
+  background-color:        #dedede;
+  vertical-align:          top;
+  color:                   #000000;
+  text-align:              right;
+}
+.contentkey {
+  font-weight:             bold;
+  font-size:               12px;
+  vertical-align:          top;
+  color:                   #000000;
+}
+.contentkeypassiv {
+  font-weight:             bold;
+  font-size:               12px;
+  vertical-align:          top;
+  color:                   #BBBBBB;
+}
+.contentvalue {
+  font-size:               12px;
+  vertical-align:          top;
+  color:                   #000000;
+}
+.contentvaluepassiv {
+  font-size:               12px;
+  vertical-align:          top;
+  color:                   #BBBBBB;
+}
+.searchactive {
+  font-size:               12px;
+  background-color:        #ffffff;
+  vertical-align:          top;
+  color:                   #000000;
+}
+.searchpassive {
+  font-size:               12px;
+  background-color:        #eeeeee;
+  vertical-align:          top;
+  color:                   #000000;
+}
+.searchhighlight {
+  font-size:               12px;
+  background-color:        #d3d3d3;
+  vertical-align:          top;
+  color:                   #000000;
+}
+
+/*singleboxhead*/
+.singleboxhead {
+  font-weight:             bold;
+  font-size:               13px;
+  background-color:        #00000c;
+  vertical-align:          top;
+  color:                   #ffffff;
+}
+.singleboxbody {
+  font-size:               12px;
+  background-color:        #ffffff;
+  vertical-align:          top;
+  color:                   #000000;
+}
+.singleboxkey {
+  font-weight:             normal;
+  font-size:               12px;
+  vertical-align:          top;
+  color:                   #000000;
+}
+.singleboxvalue {
+  font-size:               12px;
+  vertical-align:          top;
+  color:                   #000000;
+}
+
+/*tabwindowlayer0*/
+.tablayer0 {
+  background-color:        #ffffff;
+}
+
+/*tabwindowlayer1*/
+.tablayer1 {
+  background-color:        #e5e5e5;
+}
+
+/*tabspassive*/
+.tabpassive {
+  background-color:        #efefef;
+  border:                  none;
+}
+
+/*tabsactive*/
+.tabactive {
+  background-color:        #e5e5e5;
+  border:                  none;
+}
+
+/*message*/
+.message {
+  font-size:               12px;
+  font-family:             monospace,fixed;
+  color:                   #000000;
+}
+
+/*articletypecolor*/
+.agent-email-external {
+  background-color:        #ccffcc;
+}
+.agent-note-internal {
+  background-color:        #ffcccc;
+}
+.agent-note-external {
+  background-color:        #eeeeee;
+}
+.system-email-external {
+  background-color:        #fffbbb;
+}
+.highlight {
+  background-color:        #d1d1d1;
+}
+
+/*priorityidcolor*/
+.PriorityID-1 {
+  font-size:               12px;
+  background-color:        #FFFFDD;
+  vertical-align:          top;
+}
+.PriorityID-2 {
+  font-size:               12px;
+  background-color:        #FFFFDD;
+  vertical-align:          top;
+}
+.PriorityID-3 {
+  font-size:               12px;
+  background-color:        #FFFFDD;
+  vertical-align:          top;
+}
+.PriorityID-4 {
+  font-size:               12px;
+  background-color:        #FFFFDD;
+  vertical-align:          top;
+}
+.PriorityID-5 {
+  font-size:               12px;
+  background-color:        #FFFFDD;
+  vertical-align:          top;
+}
+

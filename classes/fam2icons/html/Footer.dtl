@@ -1,0 +1,34 @@
+# --
+# Footer.dtl - provides global HTML footer
+# Copyright (C) 2001-2008 OTRS AG, http://otrs.org/
+# --
+# $Id: Footer.dtl,v 1.22 2008/02/12 09:08:07 ot Exp $
+# --
+# This software comes with ABSOLUTELY NO WARRANTY. For details, see
+# the enclosed file COPYING for license information (GPL). If you
+# did not receive this file, see http://www.gnu.org/licenses/gpl-2.0.txt.
+# --
+
+<!-- start footer -->
+<table border="0" width="$Data{"Width"}" cellspacing="0" cellpadding="0" id="footer">
+  <tr class="footer">
+    <td align="right" class="footer">
+      <table border="0" width="100%">
+        <tr>
+          <td align="left" class="footer">
+            $Text{"Powered by"} <a href="http://otrs.org/">$Config{"Product"} $Config{"Version"}</a> | Icons by <a href="http://www.famfamfam.com">FamFamFam</a>
+          </td>
+          <td align="right" class="footer">
+            <a href="#top" onmouseover="window.status='$JSText{"Top of Page"}'; return true;" onmouseout="window.status='';" class="footeritem">
+              <img border="0" src="/otrs-web/images/FamFamFam/arrow_up.png" alt="$Text{"Top of Page"}">
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<a name="end"></a>
+</body>
+</html>
+<!-- end footer -->
