@@ -1,5 +1,6 @@
 Mint icon set 1.0
 Inspiration from http://www.haveamint.com
+Am I able to edit this text?
 _________________________________________
 
 Mark James
