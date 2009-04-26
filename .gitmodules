@@ -1,0 +1,3 @@
+[submodule "classes/domparser"]
+	path = classes/domparser
+	url = git@github.com:siteroller/domparser.git
