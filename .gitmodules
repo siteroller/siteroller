@@ -1,3 +1,6 @@
 [submodule "classes/domparser"]
 	path = classes/domparser
 	url = git@github.com:siteroller/domparser.git
+[submodule "classes/moorte"]
+	path = classes/moorte
+	url = git@github.com:siteroller/moorte.git
