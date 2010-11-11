@@ -1,1 +1,13 @@
 
+[submodule "extensions/colorroller/project"]
+	path = extensions/colorroller/project
+	url = git@github.com:siteroller/ColorRoller-MooTools-Color-Picker.git
+[submodule "extensions/moorte/project"]
+	path = extensions/moorte/project
+	url = git@github.com:siteroller/moorte.git
+[submodule "extensions/domparser/project"]
+	path = extensions/domparser/project
+	url = git@github.com:siteroller/domparser.git
+[submodule "extensions/crossbrowser/transform/project"]
+	path = extensions/crossbrowser/transform/project
+	url = git@github.com:siteroller/crossbrowser.transform.git

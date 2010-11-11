@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+	<title>Modal></title>
+	<script src="mootools.123.js"></script>
+	<script src="clientcide.moore.js"></script>
+	<script>
+		window.addEvent('domready', function(){
+			var ui = StickyWin.ui("A caption", "A message"); 
+			$('go').addEvent('click', function(e){
+				e.stop();
+				clipStickyWin = clipStickyWin() || clipStickyWin;
+				//var me = new StickyWin.Modal({content: StickyWin.ui('caption', 'body')});
+				//me.hide();
+				//me.show();
+				//me.setContent('caption', 'body');
+
+				//document.body.adopt(ui.retrieve('StickyWinUI')); 
+ 
+			})
+			
+			
+			var clipStickyWin = function (command){
+				var body = "For your protection, Firefox does not allow access to the clipboard.<br/>  <b>Please use Ctrl+C to copy, Ctrl+X to cut, and Ctrl+V to paste.</b><br/>\
+					(Those lucky enough to be on a Mac use Cmd instead of Ctrl.)<br/><br/>\
+					If this functionality is important, consider switching to a browser such as IE,<br/> which will allow us to easily access [and modify] your system."; 
+				var popup = new StickyWin.Modal({content: StickyWin.ui('Security Restriction', body, {buttons:[{ text:'close'}]})});
+				return function(command){ popup.show(); }
+			}
+		})
+	</script>
+</head>
+<body>
+hi
+<input type="submit" id="go">
+</body>
+</html>
