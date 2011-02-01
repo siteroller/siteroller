@@ -11,6 +11,6 @@
 [submodule "extensions/crossbrowser/transform/project"]
 	path = extensions/crossbrowser/transform/project
 	url = git@github.com:siteroller/crossbrowser.transform.git
-[submodule "extensions/assetloader"]
-	path = extensions/assetloader
+[submodule "extensions/assetloader/project"]
+	path = extensions/assetloader/project
 	url = /Users/sheangoodman/Sites/siteroller/extensions/assetloader
