@@ -51,8 +51,8 @@ function query($sql, $flat = 0, $conn='', $array=1){
 }
 
 function connect($file){
-	//require dirname(__FILE__).'/../../vars - < php5.3
-	require __DIR__.'/../../../vars/'.$file;
+	require dirname(__FILE__).'/../../../vars/'.$file;
+	//require __DIR__.'/../../../vars/'.$file - > php5.3;
 	$link = mysql_connect("localhost", $myUser, $myPass);
 	if (!$link) $link = errHandler(mysql_error(),mysql_errno(),$sql,1);
 	if (!mysql_select_db($database)) $link = errHandler(mysql_error(),mysql_errno(),$sql,1);
