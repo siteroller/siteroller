@@ -39,14 +39,15 @@ function overtext(fields){
 		el.addEvents({
 			focus: function(){
 				if (el.get('value') == prompt){
-					el.set({value:''}).removeClass('prompt');
+					el.set(value,'').removeClass('prompt');
 					if (pass) el.set('type','password');
 				}
 			},
 			blur: function(){
 				var val = el.get('value');
 				if (!val || val == prompt){
-				   el.set('value',prompt).addClass('prompt');
+					var f = el.get('type') == 'textarea' ? 'text' : 'value';
+					el.set(f, prompt).addClass('prompt');
 				   if (pass) el.set('type','text');
 				}
 			}
