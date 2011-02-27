@@ -9,11 +9,10 @@ function clean($received){
 }
 
 function responder($fromAcct, $toAdmin, $received, $response){
-	echo 4;
 	extract($received);
 	$headers = "From:$fromAcct\r\nReply-To:$name <$email>";
 	$success = mail($toAdmin, $subject, $body, $headers);
-	if (!$success || !$responder) return $success;
+	if (!$success || !$response) return $success;
 	else mail("$name <$email>", $response['subject'], $response['body'], $response['from']);
 	return $success;
 }
