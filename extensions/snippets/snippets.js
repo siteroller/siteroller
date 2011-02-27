@@ -7,6 +7,10 @@ function tabs(tabs, elements, options){
 	if (options.auto){
 		var coords = first.getCoordinates(first.getOffsetParent());
 		els.each(function(el){
+			if (el.getStyle('position') != 'absolute')
+				var d = el.getSize();
+				el.setStyles({position:'absolute', width:d.x, height:d.y, top:coords.top, left:coords.left })
+			/*
 			if (el.getStyle('position') != 'absolute'){
 				var d = el.getSize();
 				var wrap = new Element('div', 
@@ -14,6 +18,7 @@ function tabs(tabs, elements, options){
 					);
 				el.empty().adopt(wrap).setStyles({width:d.x, height:d.y});
 			}
+			*/
 		});
 	}
 	
