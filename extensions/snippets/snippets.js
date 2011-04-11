@@ -1,7 +1,7 @@
 function tabs(tabs, elements, options){
 	options = Object.merge({first:0}, options|| {});
-	var els = $$(elements)
-	  , tabs = $$(tabs)
+	var els = $$(elements || 'tabEls')
+	  , tabs = $$(tabs || 'tabs')
 	  , first = els[options.first||0];
 	
 	if (options.auto){
