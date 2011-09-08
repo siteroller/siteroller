@@ -1,7 +1,7 @@
 <?php
 
 # Does NOT sanitize keys, so be careful when keys are used in a query.
-function sanitize($vals, $html=true){
+function sanitize($vals, $html=false){
 	$val = '';
 	if(!$vals = (array)$vals) return false;
 	foreach ($vals as &$val){
@@ -28,7 +28,7 @@ function filter($array, $accept, $global = false, $sanitize = false){
 	return $accepted;
 }
 
-$debug = false;
+$debug = true;
 function errHandler($err, $errno, $query, $mail=false){
 	global $debug;
 
@@ -51,8 +51,8 @@ function query($sql, $flat = 0, $conn='', $array=1){
 }
 
 function connect($file){
-	//require dirname(__FILE__).'/../../vars - < php5.3
-	require __DIR__.'/../../../vars/'.$file;
+	require dirname(__FILE__)."/../../../vars/$file"; // - < php5.3
+	// require __DIR__."/../../../vars/$file";
 	$link = mysql_connect("localhost", $myUser, $myPass);
 	if (!$link) $link = errHandler(mysql_error(),mysql_errno(),$sql,1);
 	if (!mysql_select_db($database)) $link = errHandler(mysql_error(),mysql_errno(),$sql,1);
